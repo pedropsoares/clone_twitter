@@ -1,11 +1,13 @@
 import React from 'react';
 
+import Layout from './components/Layout';
+
 import './GlobalStyles.css';
 
 function App() {
   return (
     <>
-      <h1>Twitter</h1>
+      <Layout />
 
     </>
   );

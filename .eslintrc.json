@@ -39,6 +39,7 @@
     "react/jsx-one-expression-per-line": "off",
     "no-alert": "off",
     "object-curly-newline": "off",
-    "react/jsx-no-target-blank": "off"
+    "react/jsx-no-target-blank": "off",
+    "react/button-has-type": "off"
   }
 }
