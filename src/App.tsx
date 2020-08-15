@@ -1,13 +1,12 @@
 import React from 'react';
 
-import GlobalStyles from './styles/GlobalStyles';
+import './GlobalStyles.css';
 
 function App() {
   return (
     <>
       <h1>Twitter</h1>
 
-      <GlobalStyles />
     </>
   );
 }
