@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { ArrowLeft } from '../../styles/icons';
+import {
+  ArrowLeft,
+  Home,
+  Email,
+  Notifications,
+  Search,
+} from '../../styles/icons';
 
 import './styles.scss';
 
@@ -21,12 +27,13 @@ const Main: React.FC = () => {
       </div>
 
       {/* <ProfilePages /> */}
-      {/* <BottomMenu>
-        <HomeIcon />
-        <SeacherIcon />
-        <BellIcon />
-        <EmailIcon />
-      </BottomMenu> */}
+
+      <div className="bottons-menu">
+        <Home id="home-icon" className="icons-menu" />
+        <Search id="seacher-icon" className="icons-menu" />
+        <Notifications id="bell-icon" className="icons-menu" />
+        <Email id="email-icon" className="icons-menu" />
+      </div>
     </div>
   );
 };

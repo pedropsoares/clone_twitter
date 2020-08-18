@@ -61,3 +61,33 @@
     color: var(--gray);
   }
 }
+
+.bottons-menu {
+
+  .icons-menu {
+    width: 31px;
+    height: 31px;
+
+    cursor: pointer;
+
+    fill: var(--gray);
+
+    &:hover,
+    &:active {
+      fill: var(--twitter);
+    }
+  }
+
+  #home-icon {
+    
+  }
+  #seacher-icon {
+    
+  }
+  #bell-icon {
+   
+  }
+  #email-icon {
+    
+  }
+}
