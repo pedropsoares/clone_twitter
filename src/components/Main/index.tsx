@@ -28,7 +28,7 @@ const Main: React.FC = () => {
 
       {/* <ProfilePages /> */}
 
-      <div className="bottons-menu">
+      <div className="bottom-menu">
         <Home id="home-icon" className="icons-menu" />
         <Search id="seacher-icon" className="icons-menu" />
         <Notifications id="bell-icon" className="icons-menu" />
