@@ -1,13 +1,15 @@
 import React from 'react';
 
-import './styles.css';
+import { ArrowLeft } from '../../styles/icons';
+
+import './styles.scss';
 
 const Main: React.FC = () => {
   return (
     <div className="main-container">
       <div className="main-header">
         <button>
-          {/* <BackIcon /> */}
+          <ArrowLeft id="arrow-left" />
         </button>
 
         <div className="main-profileInfo">

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from './components/Layout';
 
-import './GlobalStyles.css';
+import './styles/GlobalStyles.scss';
 
 function App() {
   return (
