@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ProfilePages from '../ProfilePages';
+
 import {
   ArrowLeft,
   Home,
@@ -26,7 +28,7 @@ const Main: React.FC = () => {
         </div>
       </div>
 
-      {/* <ProfilePages /> */}
+      <ProfilePages />
 
       <div className="bottom-menu">
         <Home id="home-icon" className="icons-menu" />
