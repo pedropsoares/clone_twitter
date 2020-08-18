@@ -8,11 +8,13 @@ import {
 } from '../../styles/icons';
 
 const ProfilePages: React.FC = () => {
+  const imgAvatar = 'https://scontent.frec36-1.fna.fbcdn.net/v/t1.0-9/27858842_1607666169319906_3691715161933078193_n.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=lyQ4dgBPM3IAX9D5oAS&_nc_ht=scontent.frec36-1.fna&oh=dbaa20cd661944a5258e02eae3c3a7ed&oe=5F5FFA3B';
+
   return (
     <div className="container-pp">
       <div className="banner">
         <img className="banner" src="" alt="" />
-        <img className="avatar" src="" alt="" />
+        <img className="avatar" src={imgAvatar} alt="" />
       </div>
 
       <div className="profile-data">
