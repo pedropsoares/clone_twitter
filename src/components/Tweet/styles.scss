@@ -1,0 +1,29 @@
+.tweet-container {
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 14px 16px;
+
+  border-bottom: 1px solid var(--outline);
+
+  max-width: 100%;
+
+  .retweet {
+    display: flex;
+    align-items: center;
+
+    font-size: 13px;
+    color: var(--gray);
+  }
+  
+  .status {
+    
+    .rocketseat {
+
+      margin-left: 35px;
+      margin-right: 9px;
+    }
+
+  }
+}
